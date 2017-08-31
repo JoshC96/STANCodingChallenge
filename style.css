@@ -1,0 +1,97 @@
+p {
+	font-family: Serif, Verdana, Helvetica, Arial;
+}
+
+footer {
+	background-color: #151515;
+	padding: 15px 30px 20px;
+	border-radius: 5px;
+}
+
+img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.email-wrapper {
+	border-radius: 5px;
+	max-width: 550px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #f6f6f6;
+}
+
+.email-banner-stan {
+	border-radius: 5px;
+	overflow: hidden;
+	max-height: 69px;
+}
+
+.email-banner-saul {
+	border-radius: 5px;
+	overflow: visible;
+	position: relative;
+	height: 177px;
+	width: 100%;
+}
+
+.title-saul{
+	height: 90px;
+	width: auto;
+	position: absolute;
+	top: 115px;
+	padding-left: 10px;
+	z-index: 1;
+}
+
+.click-to-watch-top {
+	top: 160px;
+	padding-left: 390px;
+	height: 40px;
+	width: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+.email-container {
+	padding-top: 20px;
+	margin: 20px;
+	line-height: 1;
+	font: sans-serif;
+	font-weight: 250;
+}
+
+.footer-text {
+	opacity: 0.3;
+	color: white;
+}
+
+.footer-button {
+	padding-right: 60px;
+	opacity: 0.5;
+	color: white;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.click-to-watch-lower {
+	text-decoration:none;
+	display: inline-block;
+	background: #1E90FF;
+	color: white;
+	padding: 10px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.stan-logo {
+	padding: 20px 0px 30px;
+	height: 48px;
+	width: 124px;
+}
+
+.icon {
+	height: 20px;
+	width: auto;
+}

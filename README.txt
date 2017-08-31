@@ -10,10 +10,8 @@ Requirements
 -a web page (the HTML, etc) of the campaign under the directory /campaign/page
 -Must work on Chrome, IE10+, Safari, Firefox, mobile device with a small 320px wide view port
 -Please make sure the EDM can be viewed on recent email clients (eg. Gmail, Outlook, etc).
--USE THEIR ASSETS
 
 How?
--PhoneGap
 -SublimeText3
 -SourceTree
 -Setup a GitHub repo for yourself
