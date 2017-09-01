@@ -1,3 +1,10 @@
+<!--
+AUTHOR: Josh Campbell
+CREATE DATE: 29/08/17
+PURPOSE: HTML for stan coding challenge
+ -->
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,51 +12,59 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 		<meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; media-src *; img-src * filesystem: data:">
 		<meta name="format-detection" content="telephone=no">
-		<title>Welcome Lawbreakers! - STAN</title>
+		<title>STAN</title>
 		<link rel="stylesheet" href="style.css">
-		<style type="text/css">
-			
-		</style>
 	</head>
 	<body>		
-		<div class="email-wrapper">
-			<!-- STAN BANNER -->	
-			<div>
-				<a href="https://www.stan.com.au/">
-					<img src="https://preview.ibb.co/do4pj5/fixed_Stan.png">
-				</a>
-			</div>
-			<!-- SAUL BANNER -->
-			<div class="email-banner-saul">
-				<a href="https://www.youtube.com/watch?v=lK_70f7PamE">
-					<img src="https://preview.ibb.co/cMwGE5/fixed_Saul.png">
-				</a>
+		<div class="site-wrapper">
+
+			<div class="site-banner">
+				<a href="https://www.stan.com.au/" class="trial-button"> Start your free 30 day trial now!</a>
 			</div>
 
-			<div class="email-container">
-				<h1>Welcome Lawbreakers!</h1>
-				<p>Eagerly looking forward to the debut of Better Call Saul? Why wouldn’t you be – it’s only the prequel to the multi-award winning, 2014 outstanding Drama at the Emmys and smash hit TV series Breaking Bad.</p>
+		    <div class="slidercontainer">  
+		    	<div class="showSlide fade">  
+		        	<a href="https://www.stan.com.au/"> 
+		            <img src="https://d1pet9gxylz2tx.cloudfront.net/uploads/2016/08/Stan_streaming_logo-BANNER.png"/>   
+		            </a>
+		        </div>  
+		        <div class="showSlide fade">
+		        	<a href="https://www.youtube.com/watch?v=4N27aXIAOvI">  
+		            	<img src="https://preview.ibb.co/cMwGE5/fixed_Saul.png" />  
+		            </a>
+		        </div>
+		        <!-- Navigation arrows -->  
+		        <a id="left"><</a>  
+		        <a id="right">></a>  
+		    </div>  
 
-				<p>To get you extra giddy before the Australian premiere on Stan next year, the show’s creators have just released the latest sneak peek look at the very first episode.</p>
+			<div class="main-text-container">
+				<div class="paragraph">
+					<h1>Welcome Lawbreakers!</h1>
+					<p>Eagerly looking forward to the debut of Better Call Saul? Why wouldn’t you be – it’s only the prequel to the multi-award winning, 2014 outstanding Drama at the Emmys and smash hit TV series Breaking Bad.</p>
+				</div>
 
-				<p>Stan will be calling Saul frequently to ensure you get all of the latest updates. Don’t forget, Better Call Saul will be first and exclusive to Stan.</p><br>
+				<!-- embedded video player -->
+				<object data="http://www.youtube.com/embed/4N27aXIAOvI" width="560" height="315"></object>
 
-				<!-- WATCH THE CLIP HERE BUTTON -->
-				<a href="https://www.youtube.com/watch?v=lK_70f7PamE" class="click-to-watch-lower"> Watch the clip here</a>
-			</div>
+				<div class="paragraph">
+					<p>To get you extra giddy before the Australian premiere on Stan next year, the show’s creators have just released the latest sneak peek look at the very first episode.</p>
 
-			<div class="stan-logo">
-				<a href="https://www.stan.com.au/">
-					<img src="https://d1pet9gxylz2tx.cloudfront.net/uploads/2016/08/Stan_streaming_logo-BANNER.png">
-				</a>
+					<p>Stan will be calling Saul frequently to ensure you get all of the latest updates. Don’t forget, Better Call Saul will be first and exclusive to Stan.</p>
+				</div>
 			</div>
 
 			<footer>
-				<p class="footer-text">StreamCo Media Pty Ltd<br />ABN 94 168 856 924</p>
-				<a href="https://help.stan.com.au/hc/en-us/articles/203080260-How-do-I-manage-the-emails-that-I-receive-from-Stan-" class="footer-button">Unsubscribe</a>
-				<a href="https://www.stan.com.au/privacy-policy" class="footer-button">Private Policy</a>
+				<p class="footer-text">StreamCo Media Pty Ltd<br />ABN 94 168 856 924 <br /><a href="https://www.stan.com.au/privacy-policy">Private Policy</a></p>
+				<a href="https://itunes.apple.com/au/app/stan/id948095331?mt=8">
+	            	<img class="apple-footer-store" src="https://www.alphabet.com/sites/default/files/itunes-app-store-logo-en-gb_0.png"/> 
+	            </a>
+				<a href="https://play.google.com/store/apps/details?id=au.com.stan.and&hl=en">
+	            	<img class="android-footer-store" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/> 
+	            </a>
 			</footer>
 		</div>
 	</body>
+	<script type="text/javascript" src="control.js"></script>
 </html>
 
