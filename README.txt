@@ -1,8 +1,7 @@
 SITE
 Notes:
-Comments not very necessary as code explains itself clearly even in the JavaScript.
 No css or javascript inline, looks bad if it's there.
-Wasn't sure exactly what to do so took ideas from Stan. site and themes.
+Wasn't sure exactly what to do so took ideas from Stan site and themes.
 
 Would like to have done better:
 -Used external frameworks

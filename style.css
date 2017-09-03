@@ -61,11 +61,12 @@ img {
     width: 100%;  
 }  
 
-.slidercontainer {  
+.slider-container {  
 	min-height: 400px;
     max-width: 1000px;  
     position: relative;  
     margin: auto;  
+    padding-top: 10px;
 }  
 
 #left, #right {  
@@ -118,9 +119,14 @@ img {
 	max-width: 1000px;
 }
 
+#stan-video {
+	padding: 5px;
+}
+
 .paragraph {
 	background: linear-gradient(to top, #000080, #1E50FF);
 	border-radius: 15px;
+	padding: 10px;
 }
 
 .footer-text  {
